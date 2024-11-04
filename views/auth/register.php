@@ -56,7 +56,7 @@ if (isset($_SESSION['username'])) {
                 icon: "error",
                 title: "<?= $_SESSION['error']; ?>"
             });
-            <?php unset($_SESSION['error']); // Clear error session here after displaying 
+            <?php unset($_SESSION['error']); 
             ?>
         <?php endif; ?>
     </script>
